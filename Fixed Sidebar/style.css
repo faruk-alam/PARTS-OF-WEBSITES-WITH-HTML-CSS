@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    width: 15%;
+    position: fixed;
+    height: 100%;
+    background-color: #fb5607;
+    list-style: none;
+    line-height: 90px;
+}
+nav ul li{
+    width: 100%;
+    margin-left: 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+nav ul li a:hover{
+    border-radius: 5px;
+    background-color: #ff9b54;
+}
+.content{
+    background-color: blanchedalmond;
+    float: right;
+    width: 82%;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-top: 50px;
+}
+.content>h1{
+    color: chocolate;
+}
+.content>p{
+    color: crimson;
+}
+
