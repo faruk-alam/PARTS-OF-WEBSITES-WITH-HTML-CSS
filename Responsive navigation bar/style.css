@@ -1,0 +1,34 @@
+*{
+    margin: 5px 0 0 0;
+    padding: 0;
+}
+nav ul{
+    list-style-type: none;
+    background-color: mediumvioletred;
+    text-align: center;
+    line-height: 30px;
+}
+nav ul li{
+    padding: 8px;
+}
+nav a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    color: oldlace;
+    padding: 6px;
+}
+nav a:hover{
+    background-color: orchid;
+    color: #023636;
+    border-radius: 0 50% 50% 0;
+}
+@media screen and (min-width: 768px){
+    nav ul li{
+        padding: 15px;
+        margin:0 2px;
+        border-radius: 0 50% 50% 0;
+        display: inline-block;
+        background-color: mediumseagreen;
+    }
+}
